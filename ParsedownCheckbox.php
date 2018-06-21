@@ -12,7 +12,7 @@ class ParsedownCheckbox extends ParsedownExtra
 {
     const VERSION = '0.0.2';
 
-    protected function blockListComplete($block)
+    protected function blockListComplete(array $block)
     {
         if (null === $block) {
             return null;
